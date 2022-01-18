@@ -13,3 +13,9 @@
 | Validation    | 362      | 601          | 1,060  | 134       | 70           | 2,227 |
 | Test          | 362      | 602          | 1,060  | 135       | 70           | 2,229 |
 | Total         | 3,616    | 6,012        | 10,598 | 1,345     | 698          | 22,269|
+
+
+## Confusion Matrix
+
+### Swin Transformer
+![swin_transformer_confusion_matrix](/Confusion_Matrix/swin_transformer.PNG)
