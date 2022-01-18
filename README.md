@@ -14,8 +14,15 @@
 | Test          | 362      | 602          | 1,060  | 135       | 70           | 2,229 |
 | Total         | 3,616    | 6,012        | 10,598 | 1,345     | 698          | 22,269|
 
+## Accuracy on Testset
+| Swin Transformer | EfficientNet B2 |
+|---|---|
+| 93.126% | 95.155% |
 
 ## Confusion Matrix
 
 ### Swin Transformer
 ![swin_transformer_confusion_matrix](/Confusion_Matrix/swin_transformer.PNG)
+
+### EfficientNet B2
+![efficientnet_b2_confusion_matrix](/Confusion_Matrix/effnet_b2.PNG) |
