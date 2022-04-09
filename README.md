@@ -17,9 +17,9 @@
 ----------------------------------------
 
 ## Accuracy on Testset
-| Swin Transformer | EfficientNet B2 | Ensemble |
-|---|---|---|
-| 93.585% | 95.155% | 95.289% |
+| ResNet50 | ResNeXt101| Swin Transformer | EfficientNet B2 | Ensemble |
+|---|---|---|---|---|
+| 92.059% | 95.110% | 93.585% | 95.155% | 95.289% |
 
 ## Ensemble Result
 ![Ensemble Result](/Result/ensemble.PNG)
