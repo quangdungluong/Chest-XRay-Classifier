@@ -19,7 +19,7 @@
 ## Accuracy on Testset
 | ResNet50 | ResNeXt101| Swin Transformer | EfficientNet B2 | Ensemble |
 |---|---|---|---|---|
-| 92.059% | 95.110% | 93.585% | 95.155% | 95.289% |
+| 92.059% | 95.110% | 93.585% | 95.155% | 95.334% |
 
 ## Ensemble Result
 ![Ensemble Result](/Result/ensemble.PNG)
@@ -27,6 +27,9 @@
 ----------------------------------------
 
 ## Confusion Matrix
+
+### Ensemble
+![Ensemble_confusion_matrix](/Confusion_Matrix/ensemble_cmt.PNG)
 
 ### Swin Transformer
 ![swin_transformer_confusion_matrix](/Confusion_Matrix/swin_transformer.PNG)
