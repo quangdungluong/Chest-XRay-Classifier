@@ -1,3 +1,5 @@
+# Chest XRay Classification
+
 ## Dataset
 * The Shenzhen dataset consists of 662 frontal CXR images, in which 326 images are classified as normal and 336 images are classified as manifestation of tuberculosis.
 * The Montgomery dataset contains 138 frontal chest X-rays, of which 80 images are classified as normal cases and 58 images are with manifestations of tuberculosis.
@@ -15,6 +17,21 @@
 | Total         | 3,616    | 6,012        | 10,598 | 1,345     | 698          | 22,269|
 
 ----------------------------------------
+## Installation
+```
+git clone https://github.com/quangdungluong/Chest-XRay-Classifier
+cd Chest-XRay-Classifier
+pip install -r requirements.txt
+```
+- Weight: [Google Drive](https://drive.google.com/file/d/1hE3kYi0VpzOn_qurjePTWhSNqvoMt_o-/view?usp=sharing)
+
+## Demo
+```
+python app.py
+```
+
+## Flask App
+![Demo Flask App](./Result/demo.PNG)
 
 ## Accuracy on Testset
 | ResNet50 | ResNeXt101| Swin Transformer | EfficientNet B2 | Ensemble |
