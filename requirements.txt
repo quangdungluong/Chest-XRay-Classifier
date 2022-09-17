@@ -1,0 +1,8 @@
+Flask==2.1.2
+matplotlib==3.5.1
+numpy==1.22.3
+pandas==1.4.1
+Pillow==9.2.0
+timm==0.4.12
+torch==1.11.0
+torchvision==0.12.0
